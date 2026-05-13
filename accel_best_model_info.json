@@ -1,0 +1,16 @@
+{
+  "model": "RandomForest",
+  "parameters": {
+    "model__criterion": "gini",
+    "model__max_depth": 3,
+    "model__min_samples_split": 12,
+    "model__n_estimators": 100
+  },
+  "final_test_metrics": {
+    "f1": 0.7737478411053541,
+    "precision": 0.9142857142857143,
+    "recall": 0.6706586826347305,
+    "auroc": 0.6249168330006654,
+    "specificity": 0.4166666666666667
+  }
+}
