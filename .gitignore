@@ -1,10 +1,10 @@
 # NHANES source data and derived files (too large / not redistributable)
 Data/*
-!Data/.gitkeep
+!Data/data_info.txt
 
 # Trained models, metrics and figures
 Results/*
-!Results/.gitkeep
+!Results/results_info.txt
 
 # Jupyter
 .ipynb_checkpoints/
