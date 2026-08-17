@@ -1,0 +1,25 @@
+# NHANES source data and derived files (too large / not redistributable)
+Data/*
+!Data/.gitkeep
+
+# Trained models, metrics and figures
+Results/*
+!Results/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
